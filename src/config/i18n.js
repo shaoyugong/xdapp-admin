@@ -4,9 +4,9 @@ import Cookies from "js-cookie";
 import LangEnElement from "element-ui/lib/locale/lang/en"; // element-ui lang
 import LangCnElement from "element-ui/lib/locale/lang/zh-CN"; // element-ui lang
 import LangTWElement from "element-ui/lib/locale/lang/zh-TW"; // element-ui lang
-import LangEnLocal from "./en";
-import LangCnLocal from "./zh-CN";
-import LangTWLocal from "./zh-TW";
+import LangEnLocal from "../lang/en";
+import LangCnLocal from "../lang/zh-CN";
+import LangTWLocal from "../lang/zh-TW";
 
 Vue.use(VueI18n);
 
